@@ -1,6 +1,6 @@
 ARG GO_VERSION=1.22
 
-FROM golang:${GO_VERSION} AS builder
+FROM arm64v8/golang:${GO_VERSION} AS builder
 
 WORKDIR /src
 
